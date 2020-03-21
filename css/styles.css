@@ -1,0 +1,50 @@
+body  {
+  background-color: #fae3d9;
+  color: #8ac6d1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+hr  {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #DB7093;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1  {
+  color: #DB7093;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+h3  {
+  color: #DB7093;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 40px
+}
+
+
+
+/*****************************  CLASS SELECTORS *************************/
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+}
+/*****************************  PSEUDO-CLASS SELECTORS *************************/
+
+/* mouse over link */
+a:hover {
+  color: white;
+}

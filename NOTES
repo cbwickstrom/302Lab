@@ -1,0 +1,64 @@
+MODULE 14: HTML BOILERPLATE
+utf-8 is coding system for characters to be rendered correctly
+utf-8 includes all the encoding symbols
+ html element "hr" + html attribute "color:red"
+
+CHARACTER SET is the attribute in META element. The 'charset' attribute providfes the unicode language
+META tags tell webpage how to render info, dispay webpage; and gives info to search enginge about webpage content
+you can search for meta attribute DESCRIPTION to tell search engine how to display its info on the search results webpage
+
+
+Section 2, MODULE 15: STRUCTURE TEXT IN HTML
+instead of using "i" to italicize text, use "em" because it's conveys the message that something is to be emphasized
+instead of using "b" to bold text, use "strong" to convey the message of emphasis.
+
+Section 4, MODULE 32: Intro to Cassandra
+
+  ➸ Sec. INLINE CSS: one way to insert a style sheet
+          Which HTML ✷attribute is used to define inline styles? 'style'
+
+        Example ➤➤➤
+          <p ✷style="color: blue;✷>"This is a paragraph.</p>
+
+
+  ➸ Sec. 32 INTERNAL CSS: one way to insert a style sheet
+      Implement CSS code across ENTIRE web page so we won't have to C+P the style attribute each time we want to change a particular element.
+        ** In an HTML document, the "<head>" section is the correct place to refer to an internal style sheet**
+                Which HTML ★tag is used to define an internal style sheet? '<style>'
+        An internal stylesheet holds CSS rules for the page in the head section of the HTML file.
+          The rules only apply to that page, but you can configure CSS classes and IDs that can be used to style multiple elements in the page code
+
+      Example ➤➤➤
+          <head>
+            <style type = text/css>
+              body {background-color: blue;}
+              p {color: yellow;}
+            </style>
+          </head>
+
+
+  ➸ Sec. 33 EXTERNAL CSS: affects style in ALL the pages; one way to insert a style sheet
+
+      Example ➤➤➤
+        <head>
+          <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+
+
+
+        <!--
+        HTML FORMS, Sec. 3, #25:
+        Forms + input
+        FORM tag tells us what  INTO the form.
+            Doesn't do anything until you enter the two imporant HTML elements: LABEL and INPUT.
+                ✿ {open} label tag + {closed} label tag is where you enter your text
+                ✿ input tag is a self closing tag. Instead, you define the input type by using the type attribute.
+                value
+                    ▷The input control's 'value'. When specified in the HTML, this is the initial value, and from then on
+                    it can be altered or retrieved at any time using JavaScript to access the respective
+                    HTMLInputElement object's value property. The value attribute is always optional,
+                    though should be considered mandatory for checkbox, radio, and hidden.
+
+
+
+selector⟪who?⟫ {property⟪what?⟫: value⟪how?⟫;}
